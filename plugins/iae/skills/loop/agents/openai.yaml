@@ -1,0 +1,7 @@
+interface:
+  display_name: "IAE: Loop"
+  short_description: "Implement one subphase and manage test gates"
+  default_prompt: "Use $iae:loop to execute the next pending IAE subphase and stop at the next gate."
+
+policy:
+  allow_implicit_invocation: false

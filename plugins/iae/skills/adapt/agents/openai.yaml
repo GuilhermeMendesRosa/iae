@@ -1,0 +1,7 @@
+interface:
+  display_name: "IAE: Adapt"
+  short_description: "Diagnose failures and evolve the IAE plan"
+  default_prompt: "Use $iae:adapt to diagnose this validation failure and preserve the IAE history."
+
+policy:
+  allow_implicit_invocation: false

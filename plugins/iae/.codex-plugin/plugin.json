@@ -1,0 +1,25 @@
+{
+  "name": "iae",
+  "version": "0.1.0",
+  "description": "Incremental AI Engineering: specify, design, decompose, implement, test and adapt software changes in small validated increments.",
+  "author": {
+    "name": "Guilherme Mendes Rosa"
+  },
+  "homepage": "https://github.com/GuilhermeMendesRosa/iae",
+  "repository": "https://github.com/GuilhermeMendesRosa/iae",
+  "keywords": ["ai-engineering", "codex", "incremental-development", "planning", "skills"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "IAE",
+    "shortDescription": "Incremental AI Engineering workflow",
+    "longDescription": "Turn ambiguous software work into a specification, an incremental technical design, executable subphases and a controlled implementation loop with explicit manual validation gates.",
+    "developerName": "Guilherme Mendes Rosa",
+    "category": "Productivity",
+    "capabilities": ["Planning", "Code", "Testing"],
+    "defaultPrompt": [
+      "Use $iae:specify to clarify this software change.",
+      "Use $iae:design to turn the IAE specification into incremental phases.",
+      "Use $iae:loop to execute the next IAE subphase."
+    ]
+  }
+}

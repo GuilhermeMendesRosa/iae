@@ -1,0 +1,7 @@
+interface:
+  display_name: "IAE: Design"
+  short_description: "Design small functional implementation phases"
+  default_prompt: "Use $iae:design to create an incremental technical design from the IAE specification."
+
+policy:
+  allow_implicit_invocation: false

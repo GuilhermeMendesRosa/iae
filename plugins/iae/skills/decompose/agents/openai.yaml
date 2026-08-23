@@ -1,0 +1,7 @@
+interface:
+  display_name: "IAE: Decompose"
+  short_description: "Create executable implementation subphases"
+  default_prompt: "Use $iae:decompose to turn the IAE design into executable subphase files."
+
+policy:
+  allow_implicit_invocation: false

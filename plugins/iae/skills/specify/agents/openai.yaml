@@ -1,0 +1,7 @@
+interface:
+  display_name: "IAE: Specify"
+  short_description: "Clarify requirements before technical design"
+  default_prompt: "Use $iae:specify to clarify this change and create iae/specification.md."
+
+policy:
+  allow_implicit_invocation: false
